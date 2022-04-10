@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: cargo build --verbose
+      run: cargo build
     - name: Formatting
       run: cargo fmt --all -- --check
     - name: Linting
